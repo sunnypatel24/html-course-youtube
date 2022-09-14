@@ -42,7 +42,7 @@ a:visited {
 }
 
 .clr {
-    clear: both;
+  clear: both;
 }
 
 .box-1 {
@@ -114,27 +114,27 @@ a:visited {
 }
 
 .block {
-    float: left;
-    width: 33.3%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 #main-block {
-    float: left;
-    width: 70%;
-    padding: 15px;
-    box-sizing: border-box;
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 #sidebar {
-    float: right;
-    width: 30%;
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    box-sizing: border-box;
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .p-box {
@@ -163,4 +163,20 @@ a:visited {
 .fix-me {
   position: fixed;
   top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(5) {
+  background: green;
+}
+
+.my-list li:nth-child(even) {
+  background: gray;
 }
